@@ -54,7 +54,7 @@ function SignIn() {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Welcome to Superchat! When you post in a chat, the message is signed with Google account photo. Have a nice chat!</p>
+      <p>Welcome to Superchat! React ⚛️ and Firebase 🔥 demo project.</p>
     </>
   )
 
