@@ -1,7 +1,7 @@
 body {
-  background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #aa4b6b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }
 
 .App {
@@ -11,7 +11,7 @@ body {
 }
 
 .App header {
-  background-color: #181717;
+  background-color: #202225;
   height: 10vh;
   min-height: 50px;
   color: white;
@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(40, 37, 53);
+  background-color: #36393f;
 }
 
 main {
@@ -77,7 +77,7 @@ input {
   line-height: 1.5;
   width: 100%;
   font-size: 1.5rem;
-  background: rgb(58, 58, 58);
+  background: #40444b;
   color: white;
   outline: none;
   border: none;
@@ -118,6 +118,7 @@ ul, li {
 }
 
 p {
+  align-self: center;
   max-width: 500px;
   margin-bottom: 12px;
   line-height: 24px;
