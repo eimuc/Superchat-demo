@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <h1>Superchat 💬</h1>
         <SignOut />
       </header>
 
@@ -54,7 +54,7 @@ function SignIn() {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Do not violate the community guidelines or you will be banned for life!</p>
+      <p>Welcome to Superchat! When you post in a chat, the message is signed with Google account photo. Have a nice chat!</p>
     </>
   )
 
